@@ -27,6 +27,15 @@ public class WebSecurityConfig extends WebSecurityConfigurerAdapter {
 			.logout()
 				.permitAll();
 	}
+	
+	
+	/*
+	 * userDetailsService()
+	 * sets up an in-memory user store with a single user.
+	 * That user is given a user name of user,
+	 * a password of password,
+	 * and a role of USER.
+	 */
 
 	@Bean
 	@Override
